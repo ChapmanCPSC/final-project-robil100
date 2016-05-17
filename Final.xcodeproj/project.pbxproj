@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004CDD411CE41C46000D41D4 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004CDD401CE41C46000D41D4 /* EmailViewController.swift */; };
+		004CDD431CE4286D000D41D4 /* SimulatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004CDD421CE4286D000D41D4 /* SimulatorViewController.swift */; };
 		009EB1E11CE178990022FE5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009EB1E01CE178990022FE5F /* AppDelegate.swift */; };
 		009EB1E31CE178990022FE5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009EB1E21CE178990022FE5F /* ViewController.swift */; };
 		009EB1E61CE178990022FE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009EB1E41CE178990022FE5F /* Main.storyboard */; };
 		009EB1E91CE178990022FE5F /* Final.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 009EB1E71CE178990022FE5F /* Final.xcdatamodeld */; };
 		009EB1EB1CE178990022FE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009EB1EA1CE178990022FE5F /* Assets.xcassets */; };
 		009EB1EE1CE178990022FE5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009EB1EC1CE178990022FE5F /* LaunchScreen.storyboard */; };
+		C94ED41B1CE7E6F800C6F31F /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94ED41A1CE7E6F800C6F31F /* HistoryTableViewController.swift */; };
+		C94ED41D1CE7E80500C6F31F /* HistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94ED41C1CE7E80500C6F31F /* HistoryDetailViewController.swift */; };
+		C94ED41F1CE7EBAF00C6F31F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94ED41E1CE7EBAF00C6F31F /* Result.swift */; };
+		C94ED4221CE7EF9500C6F31F /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94ED4201CE7EF9500C6F31F /* HistoryTableViewCell.swift */; };
+		C94ED4231CE7EF9500C6F31F /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C94ED4211CE7EF9500C6F31F /* HistoryTableViewCell.xib */; };
+		C9CBC8FA1CE85C77002D0A7C /* ArchiveResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CBC8F91CE85C77002D0A7C /* ArchiveResults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		004CDD401CE41C46000D41D4 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		004CDD421CE4286D000D41D4 /* SimulatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorViewController.swift; sourceTree = "<group>"; };
 		009EB1DD1CE178990022FE5F /* Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009EB1E01CE178990022FE5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		009EB1E21CE178990022FE5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		009EB1EA1CE178990022FE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		009EB1ED1CE178990022FE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		009EB1EF1CE178990022FE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94ED41A1CE7E6F800C6F31F /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		C94ED41C1CE7E80500C6F31F /* HistoryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryDetailViewController.swift; sourceTree = "<group>"; };
+		C94ED41E1CE7EBAF00C6F31F /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		C94ED4201CE7EF9500C6F31F /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		C94ED4211CE7EF9500C6F31F /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		C9CBC8F91CE85C77002D0A7C /* ArchiveResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveResults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +72,21 @@
 		009EB1DF1CE178990022FE5F /* Final */ = {
 			isa = PBXGroup;
 			children = (
+				004CDD421CE4286D000D41D4 /* SimulatorViewController.swift */,
+				C9CBC8F91CE85C77002D0A7C /* ArchiveResults.swift */,
+				C94ED41A1CE7E6F800C6F31F /* HistoryTableViewController.swift */,
+				C94ED41E1CE7EBAF00C6F31F /* Result.swift */,
+				C94ED41C1CE7E80500C6F31F /* HistoryDetailViewController.swift */,
 				009EB1E01CE178990022FE5F /* AppDelegate.swift */,
+				004CDD401CE41C46000D41D4 /* EmailViewController.swift */,
 				009EB1E21CE178990022FE5F /* ViewController.swift */,
 				009EB1E41CE178990022FE5F /* Main.storyboard */,
 				009EB1EA1CE178990022FE5F /* Assets.xcassets */,
 				009EB1EC1CE178990022FE5F /* LaunchScreen.storyboard */,
 				009EB1EF1CE178990022FE5F /* Info.plist */,
 				009EB1E71CE178990022FE5F /* Final.xcdatamodeld */,
+				C94ED4201CE7EF9500C6F31F /* HistoryTableViewCell.swift */,
+				C94ED4211CE7EF9500C6F31F /* HistoryTableViewCell.xib */,
 			);
 			path = Final;
 			sourceTree = "<group>";
@@ -99,6 +123,7 @@
 				TargetAttributes = {
 					009EB1DC1CE178990022FE5F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Q8B6XML3VN;
 					};
 				};
 			};
@@ -127,6 +152,7 @@
 			files = (
 				009EB1EE1CE178990022FE5F /* LaunchScreen.storyboard in Resources */,
 				009EB1EB1CE178990022FE5F /* Assets.xcassets in Resources */,
+				C94ED4231CE7EF9500C6F31F /* HistoryTableViewCell.xib in Resources */,
 				009EB1E61CE178990022FE5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94ED4221CE7EF9500C6F31F /* HistoryTableViewCell.swift in Sources */,
+				C9CBC8FA1CE85C77002D0A7C /* ArchiveResults.swift in Sources */,
+				004CDD431CE4286D000D41D4 /* SimulatorViewController.swift in Sources */,
 				009EB1E91CE178990022FE5F /* Final.xcdatamodeld in Sources */,
+				C94ED41B1CE7E6F800C6F31F /* HistoryTableViewController.swift in Sources */,
 				009EB1E31CE178990022FE5F /* ViewController.swift in Sources */,
 				009EB1E11CE178990022FE5F /* AppDelegate.swift in Sources */,
+				C94ED41D1CE7E80500C6F31F /* HistoryDetailViewController.swift in Sources */,
+				C94ED41F1CE7EBAF00C6F31F /* Result.swift in Sources */,
+				004CDD411CE41C46000D41D4 /* EmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,10 +286,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Final/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Robillard.Final;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -264,10 +300,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Final/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Robillard.Final;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -290,6 +329,7 @@
 				009EB1F41CE178990022FE5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
